@@ -8,7 +8,7 @@
     "image#landingbanner":{
         "props":{
             "src":"https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",
-            "minWidth":"100%",
+            "minWidth":"100%"
         }
     },
     "search-result-layout.customQuery":{
