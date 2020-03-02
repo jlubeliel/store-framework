@@ -1,8 +1,34 @@
-{"header-row#notification": {
+{
+    "header": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header.full": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header-layout.desktop": {
+        "children": [
+            "header-row#notification",
+            "header-row#main"
+        ]
+    },
+    "header-layout.mobile": {
+        "children": [
+            "header-row#notification",
+            "header-row#main-mobile",
+            "header-row#search"
+        ]
+    },
+    "header-row#notification": {
     "children": [
-      "header-spacer",
-      "rich-text#header",
-      "header-spacer"
+        "header-spacer",
+        "rich-text#header",
+        "header-spacer"
     ]
   },
   "header-row#main": {
@@ -26,13 +52,11 @@
       "minicart",
       "login"
     ],
-  
     "props": {
       "sticky": true,
       "inverted":true
     }
   },
-  
   "header-row#search": {
     "children": [
       "search-bar"
@@ -47,7 +71,6 @@
       "iconLabel": "Login"
     }
   },
-  
   "logo":{
     "props": {
       "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
